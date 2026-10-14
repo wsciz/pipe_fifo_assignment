@@ -48,8 +48,9 @@ gcc -Wall -Wextra 4_fifo_write.c -o 4_fifo_write
 `ls -l` 명령어로 현재 폴더의 파일 목록을 출력하고, 그 결과를 `wc -l` 명령어로 전달하여 줄 수를 계산하도록 하였다. 실행 결과 9가 출력되는 것을 확인하였다.
 
 ### ③ FIFO를 이용한 메시지 송수신
-**파일:** [3_fifo_read.c](3_fifo_read.c)
-[4_fifo_write.c](4_fifo_write.c)
+**파일**
+- [3_fifo_read.c](3_fifo_read.c): 메시지 수신
+- [4_fifo_write.c](4_fifo_write.c): 메시지 송신
 
 실행 명령과 실행결과
 
