@@ -54,7 +54,7 @@ gcc -Wall -Wextra 4_fifo_write.c -o 4_fifo_write
 
 실행 명령과 실행결과
 
-![FIFO 메세지 송수신 실행 결과](3_fifo.png)
+![FIFO 메시지 송수신 실행 결과](3_fifo.png)
 
 FIFO를 이용하여 송신 프로그램에서 보낸 `hello fifo` 메시지를 수신 프로그램에서 받는 것을 확인하였다. 통신이 끝난 후 `test ! -e message_fifo` 명령어로 FIFO 파일이 삭제된 것도 확인하였다.
 
